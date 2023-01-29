@@ -6,8 +6,9 @@ import { HashLink } from "react-router-hash-link";
 import Footer from "./components/footer/Footer";
 import Impdate from "./components/impdate/ImpDate";
 import Committe from "./components/Committe/Committe";
+import Aos from "aos";
 function App() {
-  
+  Aos.init();
   return (
     <BrowserRouter>
       <div className="App">

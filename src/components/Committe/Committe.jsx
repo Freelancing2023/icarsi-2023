@@ -21,6 +21,7 @@ const Title = styled.h1`
     font-size: 10vw;
   }
 `;
+
 const Card = styled.div`
   border: 0.6px solid gray;
   padding: 1rem;
@@ -89,14 +90,14 @@ function Committe() {
 
   return (
     <CommitteContainer>
-      <Title>Organizing Committe</Title>
+      <Title data-aos="fade-up">Organizing Committe</Title>
       <Container>
         <div>
-          <Heading>Cheif Patron</Heading>
+          <Heading data-aos="zoom-in">Cheif Patron</Heading>
 
-          {chiefPatron.map((data) => {
+          {chiefPatron.map((data,i) => {
             return (
-              <Card>
+              <Card data-aos="fade-right" data-aos-delay={i*100}>
                 <Cardname>{data.name}</Cardname>
                 <Cardposition>{data.position}</Cardposition>
               </Card>
@@ -104,10 +105,10 @@ function Committe() {
           })}
         </div>
         <div>
-          <Heading>Co-Patrons</Heading>
-          {coPatron.map((data) => {
+          <Heading data-aos="zoom-in">Co-Patrons</Heading>
+          {coPatron.map((data,i) => {
             return (
-              <Card>
+              <Card data-aos="fade-left"  data-aos-delay={i*100}>
                 <Cardname>{data.name}</Cardname>
                 <Cardposition>{data.position}</Cardposition>
               </Card>
