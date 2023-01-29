@@ -18,12 +18,14 @@ section {
   height:100%;
 }
 
-.hero-section {
-  height: 100vh;
+/* .hero-section {
   width: 100%;
-  background: url("./assets/conference.jpg");
+  height: 100vh;
+	background: #333;
+  background: url("./assets/headerBg.jpg");
   background-size: cover;
-}
+	background-position: center center;
+} */
 
 .back-to-top {
   position: fixed;

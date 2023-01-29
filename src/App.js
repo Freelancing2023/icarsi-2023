@@ -7,6 +7,7 @@ import Footer from "./components/footer/Footer";
 import Impdate from "./components/impdate/ImpDate";
 import Committe from "./components/Committe/Committe";
 import Aos from "aos";
+import Hero from "./components/hero/Hero";
 function App() {
   Aos.init();
   return (
@@ -14,14 +15,16 @@ function App() {
       <div className="App">
         <Navbar />
         <main className="main-container">
-          <section className="hero-section" id="hero"></section>
-          <Impdate />
-          <section id="call-for-paper">Call for Paper</section>
-          <section id="paper-submission">Paper Submission</section>
-          <section id="committee">
-            <Committe/>
+          <section id="hero">
+            <Hero />
           </section>
-          <section id="contact">Contact</section>
+          <section id="call-for-paper">
+            <Impdate />
+          </section>
+          <section id="paper-submission">"</section>
+          <section id="committee">
+            <Committe />
+          </section>
         </main>
         <HashLink className="back-to-top" to="#">
           <FaArrowUp />

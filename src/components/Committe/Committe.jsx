@@ -5,7 +5,6 @@ import styled from "styled-components";
 const CommitteContainer = styled.div`
   background-color: black;
   padding: 30px;
-
   background-image: url("${wave}");
   background-repeat: no-repeat;
   background-size: cover;
