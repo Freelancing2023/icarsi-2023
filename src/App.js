@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Footer from "./components/footer/Footer";
 import Impdate from "./components/impdate/ImpDate";
+import Committe from "./components/Committe/Committe";
 function App() {
   
   return (
@@ -16,6 +17,9 @@ function App() {
           <Impdate />
           <section id="call-for-paper">Call for Paper</section>
           <section id="paper-submission">Paper Submission</section>
+          <section id="committee">
+            <Committe/>
+          </section>
           <section id="contact">Contact</section>
         </main>
         <HashLink className="back-to-top" to="#">
