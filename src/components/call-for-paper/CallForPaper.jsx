@@ -69,6 +69,7 @@ const Heading = styled.h1`
   padding: 10px;
   border-radius: 20px;
   text-transform: uppercase;
+  font-weight: bolder;
   /* color: black; */
 
 text-align: center;
