@@ -1,12 +1,21 @@
 import React from 'react'
 import './hero.css'
+import Typewriter from 'typewriter-effect'
 const Hero = () => {
     return (
         <section className='hero'>
             <div className="main-content">
                 <p className='sponsor'>
-                    AICTE Sponsored International conference on
+                <Typewriter
+                        onInit={(typewriter) => {
+                            typewriter
+                                .changeDelay(80)
+                                .typeString("AICTE Sponsored International conference on")
+                                .start()
+                        }}
+                    />
                 </p>
+
                 <h1 className='title'>
                     Applications of AI, ML, DL, Big Data on recent societial Issues (ICARSI'23)
                 </h1>
