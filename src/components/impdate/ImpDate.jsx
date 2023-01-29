@@ -1,5 +1,5 @@
 import React from 'react'
-
+import wave from '../../assets/wavebottom.svg'
 const Impdate = () => {
   return (
     <div className="wrapper important-dates text-center">
@@ -7,7 +7,9 @@ const Impdate = () => {
       <div className="imp-right"><img src="images/important-right.jpg" alt="" /></div>
       <div className="container">
         <div className="heading">
-          <h2>Important <span>Dates</span></h2>
+          <h2>Important <span style={{
+            color:'#0066FF '
+          }}>Dates</span></h2>
         </div>
         <div className="imp-dates">
           <div className="row">

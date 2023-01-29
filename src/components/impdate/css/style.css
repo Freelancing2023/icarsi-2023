@@ -24,10 +24,10 @@ li {
 }
 
 body {
-	background: #fff;
+	/* background: #fff;
 	font-size: 15px;
 	font-family: "open-sans";
-	color: #424951;
+	color: #424951; */
 }
 
 .clearfix::after,
@@ -183,7 +183,7 @@ a {
 .imp-dates .bullet-design-hover {
 	width: 20px;
 	height: 20px;
-	border: #00a9b4 solid 3px;
+	border: #0066FF solid 3px;
 	background: #fff;
 	border-radius: 50%;
 	margin: 0 30px;
@@ -206,7 +206,7 @@ a {
 }
 
 .imp-dates .row:hover .bullet-design {
-	background: #00a9b4;
+	background: #0066FF;
 }
 
 .imp-dates .row:hover .bullet-design-hover {
@@ -220,7 +220,7 @@ a {
 
 .imp-dates .row:hover h3.submission-of {
 	transform: translateX(-10px);
-	color: #00a9b4;
+	color: #0066FF;
 }
 
 .imp-left,
@@ -248,7 +248,7 @@ a {
 .condition span {
 	width: 100%;
 	float: left;
-	color: #00a9b4;
+	color: #0066FF;
 	font-weight: bold;
 }
 
