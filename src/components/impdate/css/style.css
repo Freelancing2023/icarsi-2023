@@ -45,7 +45,6 @@ h5,
 h6 {
 	font-family: "montserrat";
 	font-weight: normal;
-	color: #304552;
 }
 
 input,
@@ -98,7 +97,7 @@ p {
 	text-align: justify;
 	font-family: "montserrat-light";
 	font-size: 15px;
-	color: #424951;
+	
 }
 
 a {
@@ -119,7 +118,7 @@ a {
 .heading h2 {
 	text-transform: capitalize;
 	font-size: 35px;
-	color: #424951;
+	
 	font-family: "montserrat-light";
 }
 

@@ -8,6 +8,7 @@ import Impdate from "./components/impdate/ImpDate";
 import Committe from "./components/Committe/Committe";
 import CallForPaper from "./components/call-for-paper/CallForPaper";
 import Aos from "aos";
+import Hero from "./components/hero/Hero";
 function App() {
   Aos.init();
   return (
@@ -15,7 +16,9 @@ function App() {
       <div className="App">
         <Navbar />
         <main className="main-container">
-          <section className="hero-section" id="hero"></section>
+          <section className="hero-section" id="hero">
+          <Hero />
+          </section>
           <section id="paper-submition" >
           <Impdate />
           
