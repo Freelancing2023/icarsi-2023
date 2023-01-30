@@ -41,21 +41,21 @@ const Navbar = () => {
                         </li>
                         <li>
                             <HashLink 
-                                to="#call-for-paper"
+                                to="#paper-submission"
                                 onClick={() => setMobilenavOpen(!mobnavOpen)}
                                 >Paper Submission</HashLink>
                         </li>
                         <li>
                             <HashLink
-                                to="#paper-submission"
+                                to="#call-for-paper"
                                 onClick={() => setMobilenavOpen(!mobnavOpen)}
                                 >Call For Paper</HashLink>
                         </li>
                         <li>
                             <HashLink
-                                to="#about"
+                                to="#publications"
                                 onClick={() => setMobilenavOpen(!mobnavOpen)}
-                            >About</HashLink>
+                            >Publications</HashLink>
                         </li>
                         <li>
                             <HashLink
@@ -65,9 +65,9 @@ const Navbar = () => {
                         </li>
                         <li>
                             <HashLink
-                                to="#contact"
+                                to="#about"
                                 onClick={() => setMobilenavOpen(!mobnavOpen)}
-                            >Contact</HashLink>
+                            >About</HashLink>
                         </li>
                     </ul>
                 </div>

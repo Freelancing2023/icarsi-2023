@@ -9,6 +9,7 @@ import Committe from "./components/Committe/Committe";
 import Aos from "aos";
 import Hero from "./components/hero/Hero";
 import CallForPaper from "./components/call-for-paper/CallForPaper";
+import Publication from "./components/publication/Publication";
 
 function App() {
   Aos.init();
@@ -20,10 +21,12 @@ function App() {
           <section id="hero">
             <Hero />
           </section>
-          <section id="call-for-paper">
+          <section id="paper-submission">
             <Impdate />
           </section>
-          <section id="paper-submission">"</section>
+          <section id="publications">
+            <Publication />
+          </section>
           <section id="committee">
             <Committe />
           </section>
