@@ -23,7 +23,7 @@ const Hero = () => {
                     21<sup>st</sup> and 22<sup>nd</sup> April 2023.
                 </p>
                 <p className='dept'>
-                    Prensented By Department Of Computer Science
+                    By Department Of Computer Science Engineering
                 </p>
             </div>
         </section>

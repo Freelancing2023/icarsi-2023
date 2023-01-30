@@ -16,27 +16,27 @@ const Impdate = () => {
             <h3 className="submission-of" style={{ width: '562px' }}>Paper Submission</h3>
           </div>
           <div className="row">
-            <h3 className="date"> 01<sup>st</sup> March 2023 <br /> <del style={{ color: '#ff0000' }}>31<sup>st</sup> Aug 2022</del></h3>
+            <h3 className="date"> 01<sup>st</sup> March 2023 <br /> </h3>
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
             <h3 className="submission-of" style={{ width: '562px' }}>Last Date For Paper Submission</h3>
           </div>
           <div className="row">
-            <h3 className="date">10<sup>th</sup> March 2023 <br /> <del style={{ color: '#ff0000' }}>25<sup>th</sup> Sep 2022</del></h3>
+            <h3 className="date">10<sup>th</sup> March 2023 <br /> </h3>
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
             <h3 className="submission-of" style={{ width: '562px' }}>Acceptance Notification</h3>
           </div>
           <div className="row">
-            <h3 className="date">20<sup>th</sup> March 2023<br /><del style={{ color: '#ff0000' }}>11<sup>th</sup> Oct 2022</del></h3>
+            <h3 className="date">20<sup>th</sup> March 2023<br /></h3>
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
             <h3 className="submission-of" style={{ width: '562px' }}> Registrations Deadline - Presenters </h3>
           </div>
           <div className="row">
-            <h3 className="date">15<sup>th</sup> March 2023<br /><del style={{ color: '#ff0000' }}>25<sup>th</sup> Oct 2022 </del></h3>
+            <h3 className="date">15<sup>th</sup> March 2023<br /></h3>
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
             <h3 className="submission-of" style={{ width: '562px' }}>Camera Ready Paper Submission</h3>
           </div>
           <div className="row">
-            <h3 className="date">15<sup>th</sup> March 2023<br /><del style={{ color: '#ff0000' }}>11<sup>th</sup> Oct 2022</del></h3>
+            <h3 className="date">15<sup>th</sup> March 2023<br /></h3>
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
             <h3 className="submission-of" style={{ width: '562px' }}> Early Bird Registration </h3>
           </div>
