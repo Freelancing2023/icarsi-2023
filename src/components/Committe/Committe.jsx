@@ -2,17 +2,18 @@ import React, { useEffect } from "react";
 import ball from "../../assets/ball.svg";
 import wave from "../../assets/wave.svg";
 import styled from "styled-components";
+import wave2 from "../../assets/wavenobg.svg";
 const CommitteContainer = styled.div`
   background-color: black;
   padding: 30px;
-  background-image: url("${wave}");
+  background-image: url("${wave2}");
   background-repeat: no-repeat;
   background-size: cover;
 `;
 
 const Title = styled.h1`
   text-align: center;
-  text-shadow: 5px 5px #0044ff;
+  text-shadow: 5px 2px #22a3ac;
   /* color: #4775f4; */
   color: white;
   font-size: 5vw;
@@ -37,7 +38,7 @@ const Cardname = styled.h2`
   }
 `;
 const Cardposition = styled.h4`
-  color: #4775f4;
+  color: #00a9b4;
 `;
 const Container = styled.div`
   display: flex;

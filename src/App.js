@@ -8,6 +8,8 @@ import Impdate from "./components/impdate/ImpDate";
 import Committe from "./components/Committe/Committe";
 import Aos from "aos";
 import Hero from "./components/hero/Hero";
+import CallForPaper from "./components/call-for-paper/CallForPaper";
+
 function App() {
   Aos.init();
   return (
@@ -25,10 +27,14 @@ function App() {
           <section id="committee">
             <Committe />
           </section>
-        </main>
-        <HashLink className="back-to-top" to="#">
+          <section id="call-for-paper">
+            <CallForPaper/>
+          </section>
+          <HashLink className="back-to-top" to="#">
           <FaArrowUp />
         </HashLink>
+        </main>
+      
 
         <Footer />
       </div>

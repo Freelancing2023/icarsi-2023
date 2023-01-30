@@ -40,16 +40,16 @@ const Navbar = () => {
                             </HashLink>
                         </li>
                         <li>
-                            <HashLink
+                            <HashLink 
                                 to="#call-for-paper"
                                 onClick={() => setMobilenavOpen(!mobnavOpen)}
-                                >Call For Paper</HashLink>
+                                >Paper Submission</HashLink>
                         </li>
                         <li>
                             <HashLink
                                 to="#paper-submission"
                                 onClick={() => setMobilenavOpen(!mobnavOpen)}
-                                >Paper Submission</HashLink>
+                                >Call For Paper</HashLink>
                         </li>
                         <li>
                             <HashLink
