@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
 import wave from "../../assets/wavetop.svg";
-
+ 
 
 const CommitteContainer = styled.div`
   background-color: black;
@@ -14,7 +14,7 @@ const CommitteContainer = styled.div`
 
 const Title = styled.h1`
   text-align: center;
-  text-shadow: 5px 5px #004cff;
+  text-shadow: 5px 5px #111717;
   /* color: #4775f4; */
   color: white;
   font-size: 5vw;
@@ -69,6 +69,7 @@ const Heading = styled.h1`
   padding: 10px;
   border-radius: 20px;
   text-transform: uppercase;
+  font-weight: bolder;
   /* color: black; */
 
 text-align: center;

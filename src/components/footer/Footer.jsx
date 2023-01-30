@@ -18,8 +18,7 @@ const Footer = () => {
         <div className="block">
             <img style={{ width: "100%" }} src={logo} alt="logo" />
           <div className="desc">
-            13<sup>th</sup> National level inter collegiate technical and
-            management fest
+             AICTE Sponsored International conference on Applications of AI, ML, DL, Big Data on recent societial Issues (ICARSI'23)
           </div>
         </div>
         <div className="block">
@@ -99,7 +98,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        Copyright © Saveetha Engineering College, Powered by ICRACS 2023.
+        Copyright © Saveetha Engineering College, Powered by ICARSI 2023.
       </div>
     </div>
   );

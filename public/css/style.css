@@ -24,10 +24,9 @@ li {
 }
 
 body {
-	/* background: #fff;
+	background: #fff;
 	font-size: 15px;
 	font-family: "open-sans";
-	color: #424951; */
 }
 
 .clearfix::after,
@@ -96,8 +95,6 @@ img {
 p {
 	text-align: justify;
 	font-family: "montserrat-light";
-	font-size: 15px;
-	
 }
 
 a {
@@ -118,7 +115,6 @@ a {
 .heading h2 {
 	text-transform: capitalize;
 	font-size: 35px;
-	
 	font-family: "montserrat-light";
 }
 
@@ -182,7 +178,7 @@ a {
 .imp-dates .bullet-design-hover {
 	width: 20px;
 	height: 20px;
-	border: #0066FF solid 3px;
+	border: #00a9b4 solid 3px;
 	background: #fff;
 	border-radius: 50%;
 	margin: 0 30px;
@@ -205,7 +201,7 @@ a {
 }
 
 .imp-dates .row:hover .bullet-design {
-	background: #0066FF;
+	background: #00a9b4;
 }
 
 .imp-dates .row:hover .bullet-design-hover {
@@ -219,7 +215,7 @@ a {
 
 .imp-dates .row:hover h3.submission-of {
 	transform: translateX(-10px);
-	color: #0066FF;
+	color: #00a9b4;
 }
 
 .imp-left,
@@ -247,7 +243,7 @@ a {
 .condition span {
 	width: 100%;
 	float: left;
-	color: #0066FF;
+	color: #00a9b4;
 	font-weight: bold;
 }
 

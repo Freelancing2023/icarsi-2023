@@ -6,9 +6,10 @@ import { HashLink } from "react-router-hash-link";
 import Footer from "./components/footer/Footer";
 import Impdate from "./components/impdate/ImpDate";
 import Committe from "./components/Committe/Committe";
-import CallForPaper from "./components/call-for-paper/CallForPaper";
 import Aos from "aos";
 import Hero from "./components/hero/Hero";
+import CallForPaper from "./components/call-for-paper/CallForPaper";
+
 function App() {
   Aos.init();
   return (
@@ -16,24 +17,24 @@ function App() {
       <div className="App">
         <Navbar />
         <main className="main-container">
-          <section className="hero-section" id="hero">
-          <Hero />
+          <section id="hero">
+            <Hero />
           </section>
-          <section id="paper-submition" >
-          <Impdate />
-          
+          <section id="call-for-paper">
+            <Impdate />
           </section>
-          <section id="paper-submission">i</section>
+          <section id="paper-submission">"</section>
           <section id="committee">
             <Committe />
           </section>
           <section id="call-for-paper">
-       <CallForPaper/>
+            <CallForPaper/>
           </section>
-        </main>
-        <HashLink className="back-to-top" to="#">
+          <HashLink className="back-to-top" to="#">
           <FaArrowUp />
         </HashLink>
+        </main>
+      
 
         <Footer />
       </div>

@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import ball from "../../assets/ball.svg";
 import wave from "../../assets/wave.svg";
 import styled from "styled-components";
-import '../impdate/css/style.css'
-import '../impdate/css/media-query.css'
 import wave2 from "../../assets/wavenobg.svg";
 const CommitteContainer = styled.div`
   background-color: black;
@@ -11,21 +9,11 @@ const CommitteContainer = styled.div`
   background-image: url("${wave2}");
   background-repeat: no-repeat;
   background-size: cover;
-
-  position: relative;
-
- &::before{
-  content: '';
-  width: 200px;
-  height: 300px;
-  color: red;
-  background-color: red;
- }
 `;
 
 const Title = styled.h1`
   text-align: center;
-  text-shadow: 5px 5px #0044ff;
+  text-shadow: 5px 2px #22a3ac;
   /* color: #4775f4; */
   color: white;
   font-size: 5vw;
@@ -41,7 +29,6 @@ const Card = styled.div`
   border-radius: 10px;
   margin: 2rem 0;
   color: black;
-  z-index: 1000;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 `;
@@ -51,7 +38,7 @@ const Cardname = styled.h2`
   }
 `;
 const Cardposition = styled.h4`
-  color: #4775f4;
+  color: #00a9b4;
 `;
 const Container = styled.div`
   display: flex;
@@ -100,21 +87,9 @@ function Committe() {
       position: "Dean (ICT)",
     },
   ];
-// const Bgimg = styled.img`
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-// `
-// const Bgimg2 = styled.img`
-//   position: absolute;
-// bottom: 0;
-//   left: 0;
 
-// `
   return (
-    <CommitteContainer >
-      {/* <Bgimg  src={wave}/>
-      <Bgimg2 src={wave2}/> */}
+    <CommitteContainer>
       <Title data-aos="fade-up">Organizing Committe</Title>
       <Container>
         <div>
