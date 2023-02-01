@@ -1,5 +1,3 @@
-
-
 @media only screen and (max-width:730px){
 	.imp-dates{
 		width:100%;	
@@ -21,7 +19,18 @@
 	.imp-left{
 		left:-150px;		
 	}
-	
+	.important-dates{
+		padding: 2rem;
+	}
+	.imp-dates h3.date{
+		margin: 0;
+	}
+	.imp-dates .row{
+		margin: 0;
+	}
+	.imp-dates{
+		margin: 0;
+	}
 	.imp-dates .row:hover h3.date, .imp-dates .row:hover h3.submission-of{
 		transform:translateX(0);	
 	}
@@ -39,4 +48,3 @@
 		font-size:23px;	
 	}
 }
-

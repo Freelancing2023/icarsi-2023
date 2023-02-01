@@ -26,20 +26,20 @@ const Impdate = () => {
             <h3 className="submission-of" style={{ width: '562px' }}>Acceptance Notification</h3>
           </div>
           <div className="row">
-            <h3 className="date">20<sup>th</sup> March 2023<br /></h3>
-            <div className="bullet-design"><div className="bullet-design-hover" /></div>
-            <h3 className="submission-of" style={{ width: '562px' }}> Registrations Deadline - Presenters </h3>
-          </div>
-          <div className="row">
             <h3 className="date">15<sup>th</sup> March 2023<br /></h3>
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
-            <h3 className="submission-of" style={{ width: '562px' }}>Camera Ready Paper Submission</h3>
+            <h3 className="submission-of" style={{ width: '562px' }}>Camera Ready Paper Submission & Early Bird Registration</h3>
           </div>
           <div className="row">
+            <h3 className="date">20<sup>th</sup> March 2023<br /></h3>
+            <div className="bullet-design"><div className="bullet-design-hover" /></div>
+            <h3 className="submission-of" style={{ width: '562px' }}> Registrations Deadline  </h3>
+          </div>
+          {/* <div className="row">
             <h3 className="date">15<sup>th</sup> March 2023<br /></h3>
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
             <h3 className="submission-of" style={{ width: '562px' }}> Early Bird Registration </h3>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

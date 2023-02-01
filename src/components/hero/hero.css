@@ -10,28 +10,46 @@
     align-items: center;
     color: white;
 }
-.main-content{
+
+.main-content {
     max-width: 60%;
 }
-.sponsor{
+
+.sponsor {
     margin-inline: auto;
     max-width: 80%;
     text-align: center;
     font-size: 1.5vw;
 
 }
-.title{
+
+.title {
     font-size: 4vw;
     text-align: center;
     margin-top: 1.5vw;
 }
-.date{
+
+.date {
 
     margin: 0.8vw 0;
     font-size: 1.5vw;
     text-align: center;
 }
-.dept{
+
+.logoo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content .logoo img{
+    margin: 1rem;
+    width: 20%; 
+    aspect-ratio: 3/2;
+    object-fit: contain;
+
+}
+.dept {
     position: absolute;
     width: 60%;
     font-size: 1.5vw;
@@ -40,30 +58,39 @@
     bottom: 0;
     margin: 1.5vw 0 4vw 0;
 }
+
 @media screen and (max-width: 768px) {
-    .hero{
+    .hero {
         height: 80vh;
     }
-    .main-content{
+
+    .main-content {
         padding-top: 15vh;
         max-width: 70%;
         height: 80vh;
     }
-    .sponsor{
+
+    .sponsor {
         margin-bottom: 1rem;
         font-size: 2vh;
     }
-    .title{
+
+    .title {
         font-size: 4vh;
     }
-    .date{
+
+    .date {
         font-size: 2vh;
         margin-top: 1rem;
 
     }
-    .dept{
+
+    .dept {
         font-size: 2vh;
         width: 70%;
-        margin: 2vh 0 30vh 0;
+        margin: 2vh 0 25vh 0;
+    }
+    .main-content .logoo img{
+        width: 30%;
     }
 }

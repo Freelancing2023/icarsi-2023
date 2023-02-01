@@ -25,9 +25,9 @@ const Title = styled.h1`
 const Card = styled.div`
   border: 0.6px solid gray;
   padding: 1rem;
-
+  
   border-radius: 10px;
-  margin: 2rem 0;
+  /* margin: 2rem 0; */
   color: black;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -41,18 +41,30 @@ const Cardposition = styled.h4`
   color: #00a9b4;
 `;
 const Container = styled.div`
-  display: flex;
+  /* display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: flex-start; */
   padding: 2em;
 
+  /* flex-direction: column; */
+
+  @media (max-width: 786px) {
+    /* flex-direction: column; */
+  }
+`;
+
+const Heading = styled.h1`
+  color: white;
+text-align: left;
+margin: 1rem 0;
+`
+const Head2 = styled.div`
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
   @media (max-width: 786px) {
     flex-direction: column;
   }
-`;
-const Heading = styled.h1`
-  color: white;
-text-align: center;
 `
 function Committe() {
   const chiefPatron = [
@@ -88,14 +100,74 @@ function Committe() {
     },
   ];
 
+  const pc =[
+    {
+      name:"Dr S.SasiKumar ",
+      position:"Professor /CSE "
+    }
+    ,
+    {
+      name:"Dr M.VijayAnand  ",
+      position:"Professor /CSE  "
+    }
+    ,
+
+    {
+      name:"Dr AnithaJulian ",
+      position:"Professor /CSE  "
+    }
+    ,
+    {
+      name:"Dr E,Sujatha ",
+      position:"Professor /CSE "
+    },
+    {
+      name:"Dr V.Loganathan ",
+      position:"Associate Professor /CSE "
+    },
+    {
+      name:"Dr R.Ramyadevi ",
+      position:"Associate Professor /CSE "
+    },
+    {
+      name:"Mr N.V Ravindhar ",
+      position:"Assistant Professor /CSE "
+    },
+    {
+      name:"Mrs K.S.Rekha ",
+      position:"Assistant Professor /CSE "
+    },
+    {
+      name:"Mrs P.Preethi ",
+      position:"Assistant Professor /CSE  "
+    }
+  ]
+
+  const cc = [
+
+    {
+      name:"Dr R. Kaladevi ",
+      position:"Associate Professor /CSE "
+    },{
+      name:"Dr V.UmaRani ",
+      position:"Associate Professor /CSE"
+    }
+  ]
+  const confercon = [
+    {
+      name:"Dr G.Nagappan ",
+      position:"Professor &Head",
+      dep:"Department of Computer Science and Engineering ",
+    }
+  ]
   return (
     <CommitteContainer>
       <Title data-aos="fade-up">Organizing Committe</Title>
       <Container>
         <div>
           <Heading data-aos="zoom-in">Cheif Patron</Heading>
-
-          {chiefPatron.map((data,i) => {
+      <Head2>
+      {chiefPatron.map((data,i) => {
             return (
               <Card data-aos="fade-right" data-aos-delay={i*100}>
                 <Cardname>{data.name}</Cardname>
@@ -103,9 +175,12 @@ function Committe() {
               </Card>
             );
           })}
+      </Head2>
+     
         </div>
         <div>
           <Heading data-aos="zoom-in">Co-Patrons</Heading>
+          <Head2>
           {coPatron.map((data,i) => {
             return (
               <Card data-aos="fade-left"  data-aos-delay={i*100}>
@@ -114,6 +189,50 @@ function Committe() {
               </Card>
             );
           })}
+          </Head2>
+ 
+        </div>
+        <div>
+          <Heading data-aos="zoom-in">Program committee</Heading>
+          <Head2>
+          {pc.map((data,i) => {
+            return (
+              <Card data-aos="fade-left"  data-aos-delay={i*100}>
+                <Cardname>{data.name}</Cardname>
+                <Cardposition>{data.position}</Cardposition>
+              </Card>
+            );
+          })}
+          </Head2>
+    
+        </div>
+        <div>
+          <Heading data-aos="zoom-in">Conference coordinatord</Heading>
+          <Head2>
+          {cc.map((data,i) => {
+            return (
+              <Card data-aos="fade-left"  data-aos-delay={i*100}>
+                <Cardname>{data.name}</Cardname>
+                <Cardposition>{data.position}</Cardposition>
+              </Card>
+            );
+          })}
+          </Head2>
+    
+        </div>
+        <div>
+          <Heading data-aos="zoom-in">Conference convener </Heading>
+          <Head2>
+          {cc.map((data,i) => {
+            return (
+              <Card data-aos="fade-left"  data-aos-delay={i*100}>
+                <Cardname>{data.name}</Cardname>
+                <Cardposition>{data.position}</Cardposition>
+              </Card>
+            );
+          })}
+          </Head2>
+    
         </div>
       </Container>
     </CommitteContainer>
