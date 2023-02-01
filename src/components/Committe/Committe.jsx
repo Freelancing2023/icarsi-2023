@@ -6,7 +6,7 @@ import wave2 from "../../assets/wavenobg.svg";
 const CommitteContainer = styled.div`
   background-color: black;
   padding: 30px;
-  background-image: url("${wave2}");
+  /* background-image: url("${wave2}"); */
   background-repeat: no-repeat;
   background-size: cover;
 `;

@@ -8,31 +8,42 @@ const CommitteContainer = styled.div`
   background-color: black;
   padding: 30px;
 
-  background-image: url("${wave}");
+  /* background: #FC5C7D; 
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D); 
+background: linear-gradient(to right, #6A82FB, #FC5C7D);  */
+
+background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  /* background-image: url("${wave}"); */
   background-repeat: no-repeat;
   background-size: cover;
 `;
 
 const Title = styled.h1`
   text-align: center;
-  text-shadow: 5px 5px #111717;
+  text-transform: uppercase;
+
+  text-shadow: 5px 5px  #7F00FF;
   /* color: #4775f4; */
   margin: 2rem 0;
   color: white;
-  font-size: 5vw;
+  font-size: 100px;
   @media (max-width: 786px) {
     font-size: 10vw;
   }
 `;
 
 const Card = styled.div`
-  border: 0.2px solid gray;
+  /* border: 0.2px solid gray; */
   padding: 1rem;
 
   border-radius: 10px;
   /* margin: 2rem 0; */
-  background-color: white;
-  color: #000000;
+  background-color: #000000;
+  color: #ffffff;
   backdrop-filter: blur(10px);
   text-align: left;
 
@@ -46,7 +57,7 @@ const Card = styled.div`
   /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
 `;
 const Cardname = styled.h3`
-  color: #000000;
+  color: #ffffff;
   font-weight: bolder;
   text-align: center;
   @media (max-width: 435px) {
@@ -76,7 +87,8 @@ const Head2 = styled.div`
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
+  justify-content: flex-start;
   @media (max-width: 786px) {
      flex-direction: column;
 
@@ -86,16 +98,18 @@ const Head2 = styled.div`
 `
 const Heading = styled.h1`
   color: white;
-
+  text-shadow: 5px 5px  #7F00FF;
+  /* letter-spacing: 10px; */
   /* background-color: white; */
   padding: 10px;
-  margin: 1rem;
+  margin: 1rem 0;
   border-radius: 20px;
   text-transform: uppercase;
+  font-size: 40px;
   font-weight: bolder;
   /* color: black; */
 
-  text-align: center;
+  text-align: left;
   @media (max-width: 786px) {
     text-align: center;
   }
@@ -168,12 +182,15 @@ name:'5G technologies '
   return (
     <CommitteContainer>
       <Title data-aos="fade-up">Call for Paper</Title>
-      <Alert severity="success" sx={{
+      {/* <Alert severity="info" sx={{
         textAlign:'center'
-      }}>Authors are invited to submit technical papers in Taylor & Francis Conference Proceeding template format which are not under review in any other conference or journal for presentation on the following broad topics, but not limited to </Alert>
-      {/* <p style={{
+      }}>Authors are invited to submit technical papers in Taylor & Francis Conference Proceeding template format which are not under review in any other conference or journal for presentation on the following broad topics, but not limited to </Alert> */}
+      
+      <p style={{
         color:'white',
-      }}></p> */}
+        fontSize:'20px',
+        fontWeight:'bolder'
+      }}>Authors are invited to submit technical papers in Taylor & Francis Conference Proceeding template format which are not under review in any other conference or journal for presentation on the following broad topics, but not limited to</p>
       <Container>
         <div>
           <Heading data-aos="zoom-in">Sustainable Goals </Heading>
