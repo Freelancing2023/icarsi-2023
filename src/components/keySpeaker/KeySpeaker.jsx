@@ -26,7 +26,6 @@ const KeySpeaker = () => {
         <img className="image" src={speaker1} alt="" />
         <h1 className="name">Not said</h1>
         <p className="desig">not said</p>
-        <p className="company">not said</p>
     </div>
   </div>
 </div>

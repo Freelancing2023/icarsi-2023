@@ -1,12 +1,11 @@
 .publication{
     font-size: 16px;
-    
     background-image: linear-gradient(90deg,#822ea8 0%,#d90e90 100%);
     padding: 1rem;
     color: white;
 }
 .pub-container{
-    max-width: 70%;
+    max-width: 55%;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
