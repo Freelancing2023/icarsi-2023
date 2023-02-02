@@ -1,0 +1,72 @@
+* { box-sizing: border-box; }
+
+.keyspeaker{
+    padding: 2rem;
+    width: 100%;
+    background: linear-gradient(90deg, #414850, #131720);
+
+}
+.keynote-title{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.card-flex{
+    max-width: 80%;
+    margin-top: 1rem ;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    /* overflow: hidden; */
+
+}
+.card{
+    background: rgba(54, 147, 147, 0.817);
+    /* background-color: rgba(240, 248, 255, 0.765); */
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 20px;
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    margin: 1rem 0;
+    color:white;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+h2{
+    margin: 0;
+}
+.name{
+    font-size: 1.2rem;
+    margin: 0;
+}
+.desig, .company {
+    text-align: center;
+    padding: 0;
+}
+.image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width:768px){
+    .card-flex{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .card{
+        width: 90%;
+    }
+    .keynote-title{
+        font-size: 2rem;
+    }
+}

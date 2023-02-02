@@ -11,6 +11,7 @@ import Hero from "./components/hero/Hero";
 import CallForPaper from "./components/call-for-paper/CallForPaper";
 import Publication from "./components/publication/Publication";
 import About from "./components/About/About";
+import KeySpeaker from "./components/keySpeaker/KeySpeaker"
 function App() {
   Aos.init();
   return (
@@ -32,6 +33,9 @@ function App() {
           </section>
           <section id="call-for-paper">
             <CallForPaper/>
+          </section>
+          <section id="keyspeaker">
+            <KeySpeaker />
           </section>
           <section id="about">
             <About />
