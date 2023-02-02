@@ -15,14 +15,27 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="flex container1">
-        <div className="block">
-            <img style={{ width: "100%" }} src={logo} alt="logo" />
-          <div className="desc">
-             AICTE Sponsored International conference on Applications of AI, ML, DL, Big Data on recent societial Issues (ICARSI'23)
+
+        <div className="block1">
+          <h4 className="heading">CONTACT</h4>
+          <p className="address">
+            For futher Details and queries, Please do contact our Faculties
+          </p>
+          <div className="contact-flex">
+          <div class="box">
+            <div class="content">
+            Dr R. Kaladevi <br />
+            +91 9710074931
+            </div>
           </div>
-        </div>
-        <div className="block">
-          <h4 className="heading">CO-ORDINATORS</h4>
+          <div class="box">
+            <div class="content">
+            Dr V.UmaRani  <br />
+            +91 8610352527 
+            </div>
+          </div>
+          </div>
+          
         </div>
         <div className="block">
           <h4 className="heading">USEFUL LINKS</h4>

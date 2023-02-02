@@ -10,7 +10,7 @@ import Aos from "aos";
 import Hero from "./components/hero/Hero";
 import CallForPaper from "./components/call-for-paper/CallForPaper";
 import Publication from "./components/publication/Publication";
-
+import About from "./components/About/About";
 function App() {
   Aos.init();
   return (
@@ -32,6 +32,9 @@ function App() {
           </section>
           <section id="call-for-paper">
             <CallForPaper/>
+          </section>
+          <section id="about">
+            <About />
           </section>
           <HashLink className="back-to-top" to="#">
           <FaArrowUp />
