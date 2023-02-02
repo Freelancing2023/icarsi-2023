@@ -12,6 +12,7 @@ import CallForPaper from "./components/call-for-paper/CallForPaper";
 import Publication from "./components/publication/Publication";
 import About from "./components/About/About";
 import KeySpeaker from "./components/keySpeaker/KeySpeaker"
+import NationalCommitte from "./components/NationalCommitte/NationalCommitee";
 function App() {
   Aos.init();
   return (
@@ -29,6 +30,7 @@ function App() {
             <Publication />
           </section>
           <section id="committee">
+            <NationalCommitte/>
             <Committe />
           </section>
           <section id="call-for-paper">
