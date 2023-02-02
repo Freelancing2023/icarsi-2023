@@ -178,6 +178,20 @@ function Committe() {
     <CommitteContainer>
       <Title data-aos="fade-up">Organizing Committe</Title>
       <Container>
+      <div>
+          <Heading data-aos="zoom-in">Conference Convener </Heading>
+          <Head2>
+          {confercon.map((data,i) => {
+            return (
+              <Card data-aos="fade-right" data-aos-delay={i*100}>
+                <Cardname>{data.name}</Cardname>
+                <Cardposition>{data.position}</Cardposition>
+              </Card>
+            );
+          })}
+          </Head2>
+    
+        </div>
         <div>
           <Heading data-aos="zoom-in">Cheif Patron</Heading>
       <Head2>
@@ -234,20 +248,7 @@ function Committe() {
           </Head2>
     
         </div>
-        <div>
-          <Heading data-aos="zoom-in">Conference Convener </Heading>
-          <Head2>
-          {confercon.map((data,i) => {
-            return (
-              <Card data-aos="fade-right" data-aos-delay={i*100}>
-                <Cardname>{data.name}</Cardname>
-                <Cardposition>{data.position}</Cardposition>
-              </Card>
-            );
-          })}
-          </Head2>
-    
-        </div>
+   
       </Container>
     </CommitteContainer>
   );
