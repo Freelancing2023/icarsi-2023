@@ -59,12 +59,19 @@ h2{
 }
 
 @media screen and (max-width:768px){
+    .card{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
     .card-flex{
         flex-direction: column;
-        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
-    .card{
-        width: 90%;
+    .keyspeaker{
+        padding: 2rem 0;
+        margin-inline: auto ;
     }
     .keynote-title{
         font-size: 2rem;
