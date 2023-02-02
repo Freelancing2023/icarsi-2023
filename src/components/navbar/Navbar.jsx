@@ -71,6 +71,12 @@ const Navbar = () => {
                             >About</HashLink>
                         </li>
                         <li>
+                            <HashLink
+                                to="#keyspeaker"
+                                onClick={() => setMobilenavOpen(!mobnavOpen)}
+                            >Speakers</HashLink>
+                        </li>
+                        <li>
                            <a href={file} download>Broucher</a>
                         </li>
                     </ul>
