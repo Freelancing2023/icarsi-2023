@@ -10,22 +10,13 @@ const KeySpeaker = () => {
       <h1 className="keynote-title">Keynote Speakers</h1>
       <div className="card-flex">
         <div className="card">
-          <img className="image" src={speaker1} alt="" />
+          <img className="image" src={speaker4} alt="" />
           <h1 className="name" style={{ textAlign: "center" }}>
-            Shreyas Raghunath
+            Dr. Asadi Srinivasulu
           </h1>
           <p className="desig">
-            Associate Software Engineer Fox Corporation Cincinnati, Ohio, United
-            States
-          </p>
-        </div>
-        <div className="card">
-          <img className="image" src={speaker2} alt="" />
-          <h1 className="name" style={{ textAlign: "center" }}>
-            Muruga Laxmanen
-          </h1>
-          <p className="desig">
-            Information Security Officer, PCCW Solutions, Singapore.
+            Professor & HOD. Head Research of Data Science. Data Science
+            Research Laboratory BlueCrest University, Monrovia, Liberia.
           </p>
         </div>
         <div className="card">
@@ -42,13 +33,22 @@ const KeySpeaker = () => {
           </p>
         </div>
         <div className="card">
-          <img className="image" src={speaker4} alt="" />
+          <img className="image" src={speaker1} alt="" />
           <h1 className="name" style={{ textAlign: "center" }}>
-            Dr. Asadi Srinivasulu
+            Shreyas Raghunath
           </h1>
           <p className="desig">
-            Professor & HOD. Head Research of Data Science. Data Science
-            Research Laboratory BlueCrest
+            Associate Software Engineer, Fox Corporation Cincinnati, Ohio, United
+            States
+          </p>
+        </div>
+        <div className="card">
+          <img className="image" src={speaker2} alt="" />
+          <h1 className="name" style={{ textAlign: "center" }}>
+            Muruga Laxmanen
+          </h1>
+          <p className="desig">
+            Information Security Officer, PCCW Solutions, Singapore.
           </p>
         </div>
         {/* <div className="card">

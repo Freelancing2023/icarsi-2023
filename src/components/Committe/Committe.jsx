@@ -83,76 +83,83 @@ const Head2 = styled.div`
 function Committe() {
   const chiefPatron = [
     {
-      name: "Dr.N.M.Veeraiyan",
-      position: "Founder & President SIMATS Patrons",
+      name: "Dr. N. M. Veeraiyan",
+      position: "Founder & President, SIMATS",
     },
+    
+  ];
+  const Patrons = [
     {
       name: "Dr. Saveetha Rajesh",
       position: "Director, SMCH",
     },
     {
-      name: "Dr. S. Rajesh,",
+      name: "Dr. S. Rajesh",
       position: "Director, SEC",
     },
   ];
   const coPatron = [
     {
-      name: "Dr. N. Duraipandian,",
+      name: "Dr. N. Duraipandian",
       position: "Principal, SEC",
     },
     {
-      name: "Dr. R. Senthil Kumar,",
+      name: "Dr. R. Senthil Kumar",
       position: "Vice Principal, SEC",
     },
     {
-      name: "Dr. V. Vijayachamundeewari,",
+      name: "Dr. V. Vijayachamundeeswari",
       position: "Professor & Dean",
     },
     {
-      name: "Mr. C. Obed Otto,",
+      name: "Mr. C. Obed Otto",
       position: "Dean (ICT)",
     },
   ];
 
   const pc =[
     {
-      name:"Dr S.SasiKumar ",
+      name:"Dr. S. SasiKumar ",
       position:"Professor / CSE "
     }
     ,
     {
-      name:"Dr M.VijayAnand  ",
+      name:"Dr. M. VijayAnand  ",
       position:"Professor / CSE  "
     }
     ,
 
     {
-      name:"Dr AnithaJulian ",
+      name:"Dr. AnithaJulian ",
       position:"Professor / CSE  "
     }
     ,
     {
-      name:"Dr E,Sujatha ",
+      name:"Dr. E. Sujatha ",
       position:"Professor / CSE "
     },
     {
-      name:"Dr V.Loganathan ",
+      name:"Dr. V. Loganathan ",
       position:"Associate Professor / CSE "
     },
     {
-      name:"Dr R.Ramyadevi ",
+      name:"Dr. R. Ramyadevi ",
       position:"Associate Professor / CSE "
     },
     {
-      name:"Mr N.V Ravindhar ",
+      name:"Mr. N. V Ravindhar ",
       position:"Assistant Professor / CSE "
     },
     {
-      name:"Mrs K.S.Rekha ",
+      name:"Mrs. K. S. Rekha ",
       position:"Assistant Professor / CSE "
     },
     {
-      name:"Mrs P.Preethi ",
+      name:"Mrs. P. Preethi ",
+      position:"Assistant Professor / CSE  "
+    },
+    {
+      name:"Ms. Silambarasi",
       position:"Assistant Professor / CSE  "
     }
   ]
@@ -160,17 +167,17 @@ function Committe() {
   const cc = [
 
     {
-      name:"Dr R. Kaladevi ",
+      name:"Dr. R. Kaladevi ",
       position:"Associate Professor / CSE "
     },{
-      name:"Dr V.UmaRani ",
+      name:"Dr. V. UmaRani ",
       position:"Associate Professor / CSE"
     }
   ]
   const confercon = [
     {
-      name:"Dr G.Nagappan ",
-      position:"Professor &Head",
+      name:"Dr. G. Nagappan ",
+      position:"Professor & Head",
       dep:"Department of Computer Science and Engineering ",
     }
   ]
@@ -178,10 +185,10 @@ function Committe() {
     <CommitteContainer>
       <Title data-aos="fade-up">Organizing Committe</Title>
       <Container>
-      <div>
-          <Heading data-aos="zoom-in">Conference Convener </Heading>
-          <Head2>
-          {confercon.map((data,i) => {
+        <div>
+          <Heading data-aos="zoom-in">Cheif Patron</Heading>
+      <Head2>
+      {chiefPatron.map((data,i) => {
             return (
               <Card data-aos="fade-right" data-aos-delay={i*100}>
                 <Cardname>{data.name}</Cardname>
@@ -189,13 +196,13 @@ function Committe() {
               </Card>
             );
           })}
-          </Head2>
-    
+      </Head2>
+     
         </div>
         <div>
-          <Heading data-aos="zoom-in">Cheif Patron</Heading>
+          <Heading data-aos="zoom-in">Patrons</Heading>
       <Head2>
-      {chiefPatron.map((data,i) => {
+      {Patrons.map((data,i) => {
             return (
               <Card data-aos="fade-right" data-aos-delay={i*100}>
                 <Cardname>{data.name}</Cardname>
@@ -221,9 +228,23 @@ function Committe() {
  
         </div>
         <div>
-          <Heading data-aos="zoom-in">Program committee</Heading>
+      <div>
+          <Heading data-aos="zoom-in">Conference Convener </Heading>
           <Head2>
-          {pc.map((data,i) => {
+          {confercon.map((data,i) => {
+            return (
+              <Card data-aos="fade-right" data-aos-delay={i*100}>
+                <Cardname>{data.name}</Cardname>
+                <Cardposition>{data.position}</Cardposition>
+              </Card>
+            );
+          })}
+          </Head2>
+    
+        
+          <Heading data-aos="zoom-in">Conference Co-ordinators</Heading>
+          <Head2>
+          {cc.map((data,i) => {
             return (
               <Card data-aos="fade-right" data-aos-delay={i*100}>
                 <Cardname>{data.name}</Cardname>
@@ -234,10 +255,9 @@ function Committe() {
           </Head2>
     
         </div>
-        <div>
-          <Heading data-aos="zoom-in">Conference Co-ordinator</Heading>
+          <Heading data-aos="zoom-in">Program committee</Heading>
           <Head2>
-          {cc.map((data,i) => {
+          {pc.map((data,i) => {
             return (
               <Card data-aos="fade-right" data-aos-delay={i*100}>
                 <Cardname>{data.name}</Cardname>

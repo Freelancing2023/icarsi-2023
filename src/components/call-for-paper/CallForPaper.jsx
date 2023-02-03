@@ -190,7 +190,7 @@ name:'5G technologies '
         color:'white',
         fontSize:'20px',
         fontWeight:'bolder'
-      }}>Authors are invited to submit technical papers in Taylor & Francis Conference Proceeding template format which are not under review in any other conference or journal for presentation on the following broad topics, but not limited to</p>
+      }}>Authors are invited to submit technical papers for ICARSI'23 in Taylor & Francis Conference Proceeding template which are not under review in any other conference or journal. The invited papers on the following broad topics, but not limited to</p>
       <Container>
         <div>
           <Heading data-aos="zoom-in">Sustainable Goals </Heading>

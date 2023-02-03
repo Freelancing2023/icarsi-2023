@@ -13,13 +13,13 @@ function About() {
         <div className="item">
           <h1>About the Department</h1>
           <p>
-          The Department of Computer Science and Engineering was established in the year 2001 with an intake of 60 students. It was increased to 120 students in the year 2005-2006.In 2017-2018, it is increased to 180. The department offers B.E Computer Science and Engineering, M.E Computer Science and Engineering programs. The department has a team of sincere, dedicated, competent and experienced faculty with commitment to serve the college in achieving its goals. The department has conducted many workshops, seminars, FDP, value added courses, conferences etc, at regular intervals with nationally and internationally renowned resource persons. 
+          The Department of Computer Science and Engineering was established in the year 2001 with an intake of 60 students. It was increased to 120 students in the year 2005-2006. In 2017-2018, it is increased to 180. The department offers B.E Computer Science and Engineering, M.E Computer Science and Engineering programs. The department has a team of sincere, dedicated, competent and experienced faculty with commitment to serve the college in achieving its goals. The department has conducted many workshops, seminars, FDPs, value added courses, conferences etc, at regular intervals with nationally and internationally renowned resource persons. 
           </p>
         </div>
         <div className="item">
           <h1>About the Conference</h1>
           <p>
-          The intent of organizing the international conference is to provide tremendous opportunities to academics, researchers and practicing engineers to share the scientific knowledge, industrial experiences and research outcomes. The theme of conference is to address the recent societal issues and provide solutions to them through the application of Artificial Intelligence, Machine Learning and Deep Learning and big data. This conference covers the latest research and computing techniques applied to save Environment and Energy, Waste Management, Engineering Science and Technology. This also provides an opportunity to develop network and collaborations with international and national Universities and Industries. 
+          The intent of organizing the international conference is to provide tremendous opportunities to academics, researchers and practicing engineers to share the scientific knowledge, industrial experiences and research outcomes. The theme of conference is to address the recent societal issues and provide solutions to them through the application of Artificial Intelligence, Machine Learning, Deep Learning and Big data. This conference covers the latest research and computing techniques applied to Environment and Energy, Health care, Agriculture, Waste Management, Quality education. This also provides an opportunity to develop network and collaborations with international, national Universities and Industries. 
           </p>
         </div>
       </div>

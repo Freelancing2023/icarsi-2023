@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './imp.css'
 const Impdate = () => {
   return (
     <div className="wrapper important-dates text-center">
@@ -41,6 +41,14 @@ const Impdate = () => {
             <h3 className="submission-of" style={{ width: '562px' }}> Early Bird Registration </h3>
           </div> */}
         </div>
+      </div>
+      <div className="paperlink">
+      <button className="button-1">
+        <a href="https://forms.gle/BoZaHQiZPXfwKn1C6" target="_blank"ya>Paper Submission</a>
+      </button>
+      <button className="button-1">
+        <a target="_blank"ya>Paper Submission Format</a>
+      </button>
       </div>
     </div>
   )

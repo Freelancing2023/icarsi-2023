@@ -80,6 +80,52 @@ const Head2 = styled.div`
   }
 `;
 function NationalCommitte() {
+  const nationalCom = [
+    {
+      name: "Dr. Vedaraman N,",
+      position: "CLRI - CSIR, Adyar",
+    },
+    {
+      name: "Dr. V. Sivasubramanian",
+      position: "NIT Calicut, Kerala",
+    },
+    {
+      name: "Dr. J. Arun",
+      position: "Scientist – C, Sathyabama Institute of Science and Technology, Chennai",
+    },
+    {
+      name: "Dr. P. Narayanasamy",
+      position: "Professor, PSG Tech, Coimbatore",
+    },
+    {
+      name: "Dr. S. Chitrakala",
+      position: "Professor, College of Engineering (CEG), Anna University, Chennai",
+    },
+    {
+      name: "Dr. S. Venkatesan",
+      position: "Associate Professor, Indian Institute of Information Technology, Allahabad ",
+    },
+    {
+      name: "Dr. V. Mahendran",
+      position: "Assistant Professor, Indian Institute of Technology, Tirupati ",
+    },
+    {
+      name: "Dr. Subha L",
+      position: "Faculty Scientist, AU-KBC Research Centre, Madras Institute of Technology, Chennai",
+    },
+    {
+      name: "Dr. Vasantharaj Rajagopal",
+      position: "Chief Scientist, Madras Institute of Technology, Chennai",
+    },
+    {
+      name: "Dr. Sameer Sahasrabudhe",
+      position: "Director, Educational Multimedia Research Centre (EMRC), Pune",
+    },
+    {
+      name: "Dr. Yogendra Pal",
+      position: "Assistant Professor, NIIT University, Neemrana",
+    },
+  ]
   const chiefPatron = [
     {
       name: "Dr. Arivalagan Pugazhendhi,",
@@ -120,6 +166,14 @@ function NationalCommitte() {
     {
         name: "Mr. Gus Bjorkeroth,",
         position: " Managing Director, EMEA, Cprime-California, Unites States",
+      },
+    {
+      name: "Mr. Niranjan Shankar",
+      position: "Web Developer, Zurich Insurance Company Ltd, Dublin, Ireland.",
+    },
+    {
+        name: "Mr. Siraj Mohamed",
+        position: "Senior Technical Manager, Central Group, Bangkok, Thailand.",
       },
   ];
   const coPatron = [
@@ -205,6 +259,78 @@ function NationalCommitte() {
           {/* <Heading data-aos="zoom-in">Cheif Patron</Heading> */}
           <Head2>
             {chiefPatron.map((data, i) => {
+              return (
+                <Card data-aos="fade-right" data-aos-delay={i * 100}>
+                  <Cardname>{data.name}</Cardname>
+                  <Cardposition>{data.position}</Cardposition>
+                </Card>
+              );
+            })}
+          </Head2>
+        </div>
+        {/* <div>
+          <Heading data-aos="zoom-in">Co-Patrons</Heading>
+          <Head2>
+          {coPatron.map((data,i) => {
+            return (
+              <Card data-aos="fade-right" data-aos-delay={i*100}>
+                <Cardname>{data.name}</Cardname>
+                <Cardposition>{data.position}</Cardposition>
+              </Card>
+            );
+          })}
+          </Head2>
+ 
+        </div> */}
+        {/* <div>
+          <Heading data-aos="zoom-in">Program committee</Heading>
+          <Head2>
+          {pc.map((data,i) => {
+            return (
+              <Card data-aos="fade-right" data-aos-delay={i*100}>
+                <Cardname>{data.name}</Cardname>
+                <Cardposition>{data.position}</Cardposition>
+              </Card>
+            );
+          })}
+          </Head2>
+    
+        </div>
+        <div>
+          <Heading data-aos="zoom-in">Conference Co-ordinator</Heading>
+          <Head2>
+          {cc.map((data,i) => {
+            return (
+              <Card data-aos="fade-right" data-aos-delay={i*100}>
+                <Cardname>{data.name}</Cardname>
+                <Cardposition>{data.position}</Cardposition>
+              </Card>
+            );
+          })}
+          </Head2>
+    
+        </div>
+        <div>
+          <Heading data-aos="zoom-in">Conference Convener </Heading>
+          <Head2>
+          {confercon.map((data,i) => {
+            return (
+              <Card data-aos="fade-right" data-aos-delay={i*100}>
+                <Cardname>{data.name}</Cardname>
+                <Cardposition>{data.position}</Cardposition>
+              </Card>
+            );
+          })}
+          </Head2>
+    
+        </div> */}
+      </Container>
+      <Title data-aos="fade-up">NATIONAL ADVISORY COMMITTEE</Title>
+      <Container>
+        <div>
+          {/* <Heading data-aos="zoom-in">Cheif Patron</Heading> */}
+          <Head2>
+            {nationalCom.map((data, i) => {
               return (
                 <Card data-aos="fade-right" data-aos-delay={i * 100}>
                   <Cardname>{data.name}</Cardname>
