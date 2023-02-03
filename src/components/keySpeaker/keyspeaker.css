@@ -12,7 +12,7 @@ background-color: #121212;
     color: white;
 }
 .card-flex{
-    max-width: 80%;
+    max-width: 85%;
     margin-top: 1rem ;
     margin-inline: auto;
     display: flex;
@@ -45,6 +45,7 @@ h2{
     margin: 0;
 }
 .name{
+    width: 100%;
     font-size: 1.2rem;
     margin: 0;
 }
