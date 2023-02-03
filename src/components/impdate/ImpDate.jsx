@@ -1,5 +1,6 @@
 import React from 'react'
 import './imp.css'
+import file from '../../assets/papertem.doc'
 const Impdate = () => {
   return (
     <div className="wrapper important-dates text-center">
@@ -47,7 +48,7 @@ const Impdate = () => {
         <a href="https://forms.gle/BoZaHQiZPXfwKn1C6" target="_blank"ya>Paper Submission</a>
       </button>
       <button className="button-1">
-        <a target="_blank"ya>Paper Submission Format</a>
+        <a href={file}>Paper Submission Format</a>
       </button>
       </div>
     </div>
