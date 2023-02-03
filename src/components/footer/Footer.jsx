@@ -45,9 +45,9 @@ const Footer = () => {
           <a href="#call-for-paper" className="links">
             Call For Paper
           </a>
-          <Link to="/#paper-submission" className="links">
+          <a href="/#paper-submission" className="links">
             Paper Submission
-          </Link>
+          </a>
           <Link to="/#contact" className="links">
             Contact
           </Link>

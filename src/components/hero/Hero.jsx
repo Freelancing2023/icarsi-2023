@@ -24,7 +24,7 @@ const Hero = () => {
                 <p className='date'>
                     21<sup>st</sup> and 22<sup>nd</sup> April 2023.
                 </p>
-                <div className="logoo">
+                <div className="logoo" >
                     <img  src={aicte} alt="aicte" />
                     <img  src={tandf} alt="aicte" />
                 </div>
