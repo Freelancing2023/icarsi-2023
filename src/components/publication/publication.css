@@ -12,6 +12,14 @@
     gap: 1rem;
     flex: 1 0 0;
 }
+.pic{
+    margin: "1rem 0";
+     width: "40%";
+      border-radius: "50px" 
+}
+.fl{
+    flex: 1 0 0;
+}
 .right, .left{
     flex:1; 
 }

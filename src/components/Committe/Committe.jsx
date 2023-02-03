@@ -84,14 +84,14 @@ function Committe() {
   const chiefPatron = [
     {
       name: "Dr. N. M. Veeraiyan",
-      position: "Founder & President, SIMATS",
+      position: "Founder President and Chancellor, SIMATS",
     },
     
   ];
   const Patrons = [
     {
       name: "Dr. Saveetha Rajesh",
-      position: "Director, SMCH",
+      position: "Director, The Pupil - Saveetha Eco School",
     },
     {
       name: "Dr. S. Rajesh",
@@ -124,13 +124,13 @@ function Committe() {
     }
     ,
     {
-      name:"Dr. M. VijayAnand  ",
+      name:"Dr. M. Vijay Anand",
       position:"Professor / CSE  "
     }
     ,
 
     {
-      name:"Dr. AnithaJulian ",
+      name:"Dr. Anitha Julian ",
       position:"Professor / CSE  "
     }
     ,
@@ -183,10 +183,10 @@ function Committe() {
   ]
   return (
     <CommitteContainer>
-      <Title data-aos="fade-up">Organizing Committe</Title>
+      <Title data-aos="fade-up">Organizing Committee</Title>
       <Container>
         <div>
-          <Heading data-aos="zoom-in">Cheif Patron</Heading>
+          <Heading data-aos="zoom-in">Chief Patron</Heading>
       <Head2>
       {chiefPatron.map((data,i) => {
             return (

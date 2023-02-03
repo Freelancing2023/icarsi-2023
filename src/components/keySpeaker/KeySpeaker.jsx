@@ -15,8 +15,8 @@ const KeySpeaker = () => {
             Dr. Asadi Srinivasulu
           </h1>
           <p className="desig">
-            Professor & HOD. Head Research of Data Science. Data Science
-            Research Laboratory BlueCrest University, Monrovia, Liberia.
+            Professor & Head, Data Science
+            Research Laboratory, BlueCrest University, Monrovia, Liberia.
           </p>
         </div>
         <div className="card">
@@ -45,7 +45,7 @@ const KeySpeaker = () => {
         <div className="card">
           <img className="image" src={speaker2} alt="" />
           <h1 className="name" style={{ textAlign: "center" }}>
-            Muruga Laxmanen
+            Muruga Laxmanan
           </h1>
           <p className="desig">
             Information Security Officer, PCCW Solutions, Singapore.

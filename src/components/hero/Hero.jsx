@@ -2,7 +2,7 @@ import React from 'react'
 import './hero.css'
 import Typewriter from 'typewriter-effect'
 import aicte from '../../assets/aicte.png'
-import tandf from '../../assets/tandf.webp'
+import tandf from '../../assets/t&f.png'
 const Hero = () => {
     return (
         <section className='hero'>
@@ -19,7 +19,7 @@ const Hero = () => {
                 </p>
 
                 <h1 className='title'>
-                    Applications of AI, ML, DL, Big Data on Recent Societial Issues (ICARSI'23)
+                    Applications of AI, ML, DL, Big Data on Recent Societal Issues (ICARSI'23)
                 </h1>
                 <p className='date'>
                     21<sup>st</sup> and 22<sup>nd</sup> April 2023.

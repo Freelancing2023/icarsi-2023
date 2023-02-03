@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logo.webp";
+import logo from "../../assets/seclo.png";
 import "./navbar.css";
 import { HashLink } from "react-router-hash-link";
 import { useState } from "react";

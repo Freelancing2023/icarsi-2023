@@ -5,13 +5,15 @@ const Publication = () => {
   return (
     <div className="publication">
       <div className="pub-container">
-        <div className="right">
+        <div className="right fl">
           <h1 data-aos="fade-left">Publications</h1>
           <p style={{ fontSize: "1.25rem" }} data-aos="fade-in">
-            We will recommend the conference proceedings for Scopus Indexing.{" "}
+            All accepted papers will be published in Taylor & Francis conference proceedings.
+            They will be recommended for Scopus Indexing.
             <strong>Taylor & Francis</strong> will take final decision on
             indexing your paper.
           </p>
+          <br />
           <p data-aos="zoom-in">
             Mail To:{" "}
             <span>
@@ -30,9 +32,9 @@ const Publication = () => {
             <p data-aos="zoom-in" className='price'>10,000 INR</p>
           </div> 
         </div> */}
-        <div className="lead">
+        <div className="lead fl">
           <h1>Lead Editor</h1>
-          <img src={lead} alt="" style={{ margin: "1rem 0" }} />
+          <img src={lead} style={{width:"35%", margin: '1rem 0', borderRadius: "20px"}} alt="" className="pic"/>
           <p>
             Dr Rachit Garg, School of Computer Science & Engineering, Lovely
             Professional University, Punjab, India.
