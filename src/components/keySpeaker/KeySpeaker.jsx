@@ -22,7 +22,7 @@ const KeySpeaker = () => {
         <div className="card">
           <img className="image" src={speaker2} alt="" />
           <h1 className="name" style={{ textAlign: "center" }}>
-            Not said
+            Muruga Laxmanen
           </h1>
           <p className="desig">
             Information Security Officer, PCCW Solutions, Singapore.
