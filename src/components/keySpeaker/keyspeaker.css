@@ -64,6 +64,9 @@ h2{
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
+    .card:hover{
+       transform : scale(1);
+    }
     .card-flex{
         flex-direction: column;
         justify-content: center;
