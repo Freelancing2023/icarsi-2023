@@ -71,12 +71,14 @@
     }
 
     .sponsor {
+        max-width: 100%;
         margin-bottom: 1rem;
         font-size: 2vh;
     }
 
     .title {
         font-size: 4vh;
+        margin-top: 3vh;
     }
 
     .date {
@@ -88,7 +90,7 @@
     .dept {
         font-size: 2vh;
         width: 70%;
-        margin: 2vh 0 25vh 0;
+        margin: 2vh 0 22.5vh 0;
     }
     .main-content .logoo img{
         width: 30%;
