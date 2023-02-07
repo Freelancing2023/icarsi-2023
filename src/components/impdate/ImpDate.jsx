@@ -1,6 +1,7 @@
 import React from 'react'
 import './imp.css'
-import file from '../../assets/papertem.doc'
+import file1 from '../../assets/doc1.docx'
+import file2 from '../../assets/doc2.docx'
 const Impdate = () => {
   return (
     <div className="wrapper important-dates text-center">
@@ -47,7 +48,10 @@ const Impdate = () => {
         <a href="https://forms.gle/BoZaHQiZPXfwKn1C6" target="_blank">Paper Submission</a>
       </button>
       <button className="button-1">
-        <a href={file}>Paper Submission Format</a>
+        <a href={file1}>Paper Submission Format</a>
+      </button>
+      <button className="button-1 b2">
+        <a href={file2}>Guidelines</a>
       </button>
       </div>
       </div>

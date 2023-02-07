@@ -30,6 +30,9 @@
     color: #FFFFFF;
 
 }
+.button-1 {
+  margin: 0 1rem;
+}
 .button-1:hover,
 .button-1:focus {
   background-color: #F082AC;
