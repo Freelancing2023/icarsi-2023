@@ -5,7 +5,7 @@ import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { CgClose } from "react-icons/cg";
-import file from '../../assets/Broucher.docx'
+import file from '../../assets/Brocher.pdf'
 const Navbar = () => {
     const [colorChange, setColorchange] = useState(false)
     const [mobnavOpen, setMobilenavOpen] = useState(false)
