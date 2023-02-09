@@ -5,7 +5,6 @@ import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { CgClose } from "react-icons/cg";
-import file from '../../assets/Broucher.pdf'
 const Navbar = () => {
     const [colorChange, setColorchange] = useState(false)
     const [mobnavOpen, setMobilenavOpen] = useState(false)
@@ -77,7 +76,7 @@ const Navbar = () => {
                             >Speakers</HashLink>
                         </li>
                         <li>
-                           <a href={file} download>Broucher</a>
+                           <a href="Broucher.pdf" download>Broucher</a>
                         </li>
                     </ul>
                 </div>
