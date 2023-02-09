@@ -1,7 +1,7 @@
 import React from 'react'
 import './imp.css'
-import file1 from '../../assets/doc1.docx'
-import file2 from '../../assets/doc2.docx'
+import file1 from '../../assets/Word_Sample_Template_6.7_x_9.5.docx'
+import file2 from '../../assets/Guidelines_for_Authors.pdf'
 const Impdate = () => {
   return (
     <div className="wrapper important-dates text-center">
@@ -37,11 +37,6 @@ const Impdate = () => {
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
             <h3 className="submission-of" style={{ width: '562px' }}> Registrations Deadline  </h3>
           </div>
-          {/* <div className="row">
-            <h3 className="date">15<sup>th</sup> March 2023<br /></h3>
-            <div className="bullet-design"><div className="bullet-design-hover" /></div>
-            <h3 className="submission-of" style={{ width: '562px' }}> Early Bird Registration </h3>
-          </div> */}
         </div>
       <div className="paperlink">
       <button className="button-1" style={{margin: "0 1rem"}}>
