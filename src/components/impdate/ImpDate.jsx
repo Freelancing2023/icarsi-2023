@@ -18,7 +18,7 @@ const Impdate = () => {
           <div className="row">
             <h3 className="submission-of" style={{ width: '562px' }}>Last Date For Paper Submission</h3>
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
-            <h3 className="date"> 01<sup>st</sup> March 2023 <br /> </h3>
+            <h3 className="date"> 10<sup>th</sup> March 2023 <br /> </h3>
           </div>
           <div className="row">
             <h3 className="submission-of" style={{ width: '562px' }}>Acceptance Notification</h3>
