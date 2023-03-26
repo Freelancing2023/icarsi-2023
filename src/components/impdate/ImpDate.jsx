@@ -12,7 +12,7 @@ const Impdate = () => {
         {/* <h1 className="started">
           Acceptance Notification Started.
         </h1> */}
-        <marquee><h3>Acceptance Notification Started.</h3></marquee>
+        <marquee><h3>Registration Started.</h3></marquee>
         <div className="imp-dates">
           <div className="row">
             <h3 className="submission-of" style={{ width: '562px' }}>Paper Submission</h3>
