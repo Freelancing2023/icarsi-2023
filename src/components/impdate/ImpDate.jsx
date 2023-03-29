@@ -27,7 +27,7 @@ const Impdate = () => {
           <div className="row">
             <h3 className="submission-of" style={{ width: '562px' }}>Extended Date For Paper Submission</h3>
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
-            <h3 className="date"> 18<sup>th</sup> March 2023 <br /></h3>
+            <h3 className="date"> 2<sup>nd</sup> April 2023 <br /></h3>
           </div>
           <div className="row">
             <h3 className="submission-of" style={{ width: '562px' }}>Acceptance Notification</h3>
@@ -43,6 +43,10 @@ const Impdate = () => {
             <h3 className="submission-of" style={{ width: '562px' }}>Late Registration Deadline  </h3>
             <div className="bullet-design"><div className="bullet-design-hover" /></div>
             <h3 className="date">30<sup>th</sup> March 2023<br /></h3>
+          </div>
+
+          <div className="row green">
+            <h3>Registration fees: 9000 INR</h3>
           </div>
         </div>
       <div className="paperlink">
