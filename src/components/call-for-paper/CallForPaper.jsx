@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import wave from "../../assets/wavetop.svg";
-import Alert from '@mui/material/Alert';
-import Stack from '@mui/material/Stack';
+import wave from '../../assets/wavetop.svg';
 
 const CommitteContainer = styled.div`
   background-color: black;
@@ -12,10 +10,17 @@ const CommitteContainer = styled.div`
 background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D); 
 background: linear-gradient(to right, #6A82FB, #FC5C7D);  */
 
-background: #7F00FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e100ff,
+    #7f00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   /* background-image: url("${wave}"); */
   background-repeat: no-repeat;
@@ -26,7 +31,7 @@ const Title = styled.h1`
   text-align: center;
   text-transform: uppercase;
 
-  text-shadow: 5px 5px  #7F00FF;
+  text-shadow: 5px 5px #7f00ff;
   /* color: #4775f4; */
   margin: 2rem 0;
   color: white;
@@ -64,11 +69,8 @@ const Cardname = styled.h3`
     font-size: medium;
   }
 `;
-const Cardposition = styled.h4`
-  color: #4775f4;
-`;
 const Container = styled.div`
-margin-top: 2rem;
+  margin-top: 2rem;
   /* display: flex;
   justify-content: space-evenly;
   align-items: flex-start; */
@@ -77,7 +79,6 @@ margin-top: 2rem;
   padding: 0;
   margin: 0;
   /* padding: 1em; */
-
 
   @media (max-width: 786px) {
     /* flex-direction: column; */
@@ -90,15 +91,12 @@ const Head2 = styled.div`
   text-align: center;
   justify-content: flex-start;
   @media (max-width: 786px) {
-     flex-direction: column;
-
-
-    
+    flex-direction: column;
   }
-`
+`;
 const Heading = styled.h1`
   color: white;
-  text-shadow: 5px 5px  #7F00FF;
+  text-shadow: 5px 5px #7f00ff;
   /* letter-spacing: 10px; */
   /* background-color: white; */
   padding: 10px;
@@ -118,64 +116,51 @@ const Heading = styled.h1`
 function CallForPaper() {
   const EnergyEngineering = [
     {
-      name: "Agriculture ",
+      name: 'Agriculture ',
     },
     {
-      name: "Quality Education",
+      name: 'Quality Education',
     },
     {
-      name: "Health Care ",
+      name: 'Health Care ',
     },
     {
-      name: "Clean Water ",
-    },
-    ,
-    {
-      name: "Energy Management",
-    },
-    ,
-    {
-      name: "Climate Modelling ",
-    },
-    ,
-    {
-      name: "Green Environment",
-    },
-  ];
-  const EnvironmentalEngineering = [
-    {
-      name: "GIS Application for Air Pollution Modelling",
+      name: 'Clean Water ',
     },
     {
-      name: "GIS Application for Land Use",
+      name: 'Energy Management',
     },
     {
-      name: "Environmental System Modelling and Optimization",
+      name: 'Climate Modelling ',
+    },
+    {
+      name: 'Green Environment',
     },
   ];
   const AI = [
     {
-      name: "Machine Learning and Deep Learning ",
+      name: 'Machine Learning and Deep Learning ',
     },
     {
-      name: "Big Data Analytics",
+      name: 'Big Data Analytics',
     },
     {
-      name: "Image Processing",
+      name: 'Image Processing',
     },
     {
-      name: "Nano Computing ",
+      name: 'Nano Computing ',
     },
     {
-      name: "Mobile Communication ",
+      name: 'Mobile Communication ',
     },
     {
-      name: "Network Security ",
-    },{
-name:'5G technologies '
+      name: 'Network Security ',
     },
     {
-      name: "Internet of Things ",
+      name: '5G technologies ',
+    },
+    {
+      name: 'Internet of Things ',
     },
   ];
 
@@ -185,44 +170,51 @@ name:'5G technologies '
       {/* <Alert severity="info" sx={{
         textAlign:'center'
       }}>Authors are invited to submit technical papers in Taylor & Francis Conference Proceeding template format which are not under review in any other conference or journal for presentation on the following broad topics, but not limited to </Alert> */}
-      
-      <p style={{
-        color:'white',
-        fontSize:'20px',
-        fontWeight:'bolder'
-      }}>Authors are invited to submit technical papers for ICARSI'23 in Taylor & Francis Conference Proceeding template which are not under review in any other conference or journal. The invited papers on the following broad topics, but not limited to</p>
+
+      <p
+        style={{
+          color: 'white',
+          fontSize: '20px',
+          fontWeight: 'bolder',
+        }}
+      >
+        Authors are invited to submit technical papers for ICARSI'23 in Taylor &
+        Francis Conference Proceeding template which are not under review in any
+        other conference or journal. The invited papers on the following broad
+        topics, but not limited to
+      </p>
       <Container>
         <div>
           <Heading data-aos="zoom-in">Sustainable Goals </Heading>
-<Head2>
-
-          {EnergyEngineering.map((data, i) => {
-            return (
-              <Card data-aos="fade-right" data-aos-delay={i * 100}>
-                <Cardname>{data.name}</Cardname>
-                {/* <Cardposition>{data.position}</Cardposition> */}
-              </Card>
-            );
-          })}
-</Head2>
-`
+          <Head2>
+            {EnergyEngineering.map((data, i) => {
+              return (
+                <Card data-aos="fade-right" data-aos-delay={i * 100}>
+                  <Cardname>{data.name}</Cardname>
+                  {/* <Cardposition>{data.position}</Cardposition> */}
+                </Card>
+              );
+            })}
+          </Head2>
+          `
         </div>
-        <div style={{
-          marginTop:'2rem'
-        }}>
+        <div
+          style={{
+            marginTop: '2rem',
+          }}
+        >
           <Heading data-aos="zoom-in">
-            Technologies for Sustainable Development{" "}
+            Technologies for Sustainable Development{' '}
           </Heading>
           <Head2>
-
-          {AI.map((data, i) => {
-            return (
-              <Card data-aos="fade-left" data-aos-delay={i * 100}>
-                <Cardname>{data.name}</Cardname>
-                {/* <Cardposition>{data.position}</Cardposition> */}
-              </Card>
-            );
-          })}
+            {AI.map((data, i) => {
+              return (
+                <Card data-aos="fade-left" data-aos-delay={i * 100}>
+                  <Cardname>{data.name}</Cardname>
+                  {/* <Cardposition>{data.position}</Cardposition> */}
+                </Card>
+              );
+            })}
           </Head2>
         </div>
       </Container>

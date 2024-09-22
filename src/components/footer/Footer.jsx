@@ -1,6 +1,5 @@
 import React from "react";
-import "./footer.scss";
-import logo from "../../assets/logo.webp";
+import './footer.scss';
 import { Link } from "react-router-dom";
 import {
   FaFacebook,

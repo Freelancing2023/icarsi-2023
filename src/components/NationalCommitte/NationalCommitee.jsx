@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from 'react';
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const CommitteContainer = styled.div`
   background-color: black;
@@ -61,15 +61,6 @@ const Container = styled.div`
   }
 `;
 
-const Heading = styled.h1`
-  color: white;
-  /* color: #CF1392; */
-
-  margin: 1rem 0;
-  @media (max-width: 786px) {
-    text-align: center;
-  }
-`;
 const Head2 = styled.div`
   display: flex;
   gap: 20px;
@@ -82,175 +73,109 @@ const Head2 = styled.div`
 function NationalCommitte() {
   const nationalCom = [
     {
-      name: "Dr. Vedaraman N,",
-      position: "CLRI - CSIR, Adyar",
+      name: 'Dr. Vedaraman N,',
+      position: 'CLRI - CSIR, Adyar',
     },
     {
-      name: "Dr. V. Sivasubramanian",
-      position: "NIT Calicut, Kerala",
+      name: 'Dr. V. Sivasubramanian',
+      position: 'NIT Calicut, Kerala',
     },
     {
-      name: "Dr. J. Arun",
-      position: "Scientist – C, Sathyabama Institute of Science and Technology, Chennai",
+      name: 'Dr. J. Arun',
+      position:
+        'Scientist – C, Sathyabama Institute of Science and Technology, Chennai',
     },
     {
-      name: "Dr. P. Narayanasamy",
-      position: "Professor, PSG Tech, Coimbatore",
+      name: 'Dr. P. Narayanasamy',
+      position: 'Professor, PSG Tech, Coimbatore',
     },
     {
-      name: "Dr. S. Chitrakala",
-      position: "Professor, College of Engineering (CEG), Anna University, Chennai",
+      name: 'Dr. S. Chitrakala',
+      position:
+        'Professor, College of Engineering (CEG), Anna University, Chennai',
     },
     {
-      name: "Dr. S. Venkatesan",
-      position: "Associate Professor, Indian Institute of Information Technology, Allahabad ",
+      name: 'Dr. S. Venkatesan',
+      position:
+        'Associate Professor, Indian Institute of Information Technology, Allahabad ',
     },
     {
-      name: "Dr. V. Mahendran",
-      position: "Assistant Professor, Indian Institute of Technology, Tirupati ",
+      name: 'Dr. V. Mahendran',
+      position:
+        'Assistant Professor, Indian Institute of Technology, Tirupati ',
     },
     {
-      name: "Dr. Subha L",
-      position: "Faculty Scientist, AU-KBC Research Centre, Madras Institute of Technology, Chennai",
+      name: 'Dr. Subha L',
+      position:
+        'Faculty Scientist, AU-KBC Research Centre, Madras Institute of Technology, Chennai',
     },
     {
-      name: "Dr. Vasantharaj Rajagopal",
-      position: "Chief Scientist, Madras Institute of Technology, Chennai",
+      name: 'Dr. Vasantharaj Rajagopal',
+      position: 'Chief Scientist, Madras Institute of Technology, Chennai',
     },
     {
-      name: "Dr. Sameer Sahasrabudhe",
-      position: "Director, Educational Multimedia Research Centre (EMRC), Pune",
+      name: 'Dr. Sameer Sahasrabudhe',
+      position: 'Director, Educational Multimedia Research Centre (EMRC), Pune',
     },
     {
-      name: "Dr. Yogendra Pal",
-      position: "Assistant Professor, NIIT University, Neemrana",
+      name: 'Dr. Yogendra Pal',
+      position: 'Assistant Professor, NIIT University, Neemrana',
     },
-  ]
+  ];
   const chiefPatron = [
     {
-      name: "Dr. Arivalagan Pugazhendhi,",
-      position: "Ton Duc Thang University, Vietnam.",
+      name: 'Dr. Arivalagan Pugazhendhi,',
+      position: 'Ton Duc Thang University, Vietnam.',
     },
     {
-      name: "Dr. Eldon Rene,",
-      position: "IHE-Delft, Netherlands",
+      name: 'Dr. Eldon Rene,',
+      position: 'IHE-Delft, Netherlands',
     },
     {
-      name: "Dr. Jorge Beltramini",
-      position: "Queensland University of Technology, Australia",
+      name: 'Dr. Jorge Beltramini',
+      position: 'Queensland University of Technology, Australia',
     },
     {
-      name: "Dr. Eric van Hullebush",
-      position: "Paris Diderot University, France",
+      name: 'Dr. Eric van Hullebush',
+      position: 'Paris Diderot University, France',
     },
     {
-      name: "Dr. Asadi Srinivasulu,",
-      position: "Bluecrest University, Monrovia, Liberia ",
+      name: 'Dr. Asadi Srinivasulu,',
+      position: 'Bluecrest University, Monrovia, Liberia ',
     },
     {
-      name: " Dr. Edward Danso Ansong,",
-      position: "University of Ghana and CEO, Fredan Computers, Accra, Ghana",
+      name: ' Dr. Edward Danso Ansong,',
+      position: 'University of Ghana and CEO, Fredan Computers, Accra, Ghana',
     },
     {
-      name: "Dr. Wael M. Alenazy,",
-      position: "Associate Professor of Computer Systems, King Saud University, Saudi Arabia ",
+      name: 'Dr. Wael M. Alenazy,',
+      position:
+        'Associate Professor of Computer Systems, King Saud University, Saudi Arabia ',
     },
     {
-      name: "Dr. Abdullah Saleh Alqahtani,",
-      position: "Associate Professor, CFY Deanship King Saud University, Saudi Arabia",
+      name: 'Dr. Abdullah Saleh Alqahtani,',
+      position:
+        'Associate Professor, CFY Deanship King Saud University, Saudi Arabia',
     },
     {
-      name: "Dr. You Wing Leung,",
-      position: "Hong Kong Bapist University, Kowloon Tong, Hong Kong ",
+      name: 'Dr. You Wing Leung,',
+      position: 'Hong Kong Bapist University, Kowloon Tong, Hong Kong ',
     },
     {
-        name: "Mr. Gus Bjorkeroth,",
-        position: " Managing Director, EMEA, Cprime-California, Unites States",
-      },
-    {
-      name: "Mr. Niranjan Shankar",
-      position: "Web Developer, Zurich Insurance Company Ltd, Dublin, Ireland.",
+      name: 'Mr. Gus Bjorkeroth,',
+      position: ' Managing Director, EMEA, Cprime-California, Unites States',
     },
     {
-        name: "Mr. Siraj Mohamed",
-        position: "Senior Technical Manager, Central Group, Bangkok, Thailand.",
-      },
-  ];
-  const coPatron = [
-    {
-      name: "Dr. N. Duraipandian,",
-      position: "Principal, SEC",
+      name: 'Mr. Niranjan Shankar',
+      position: 'Web Developer, Zurich Insurance Company Ltd, Dublin, Ireland.',
     },
     {
-      name: "Dr. R. Senthil Kumar,",
-      position: "Vice Principal, SEC",
-    },
-    {
-      name: "Dr. V. Vijayachamundeewari,",
-      position: "Professor & Dean",
-    },
-    {
-      name: "Mr. C. Obed Otto,",
-      position: "Dean (ICT)",
+      name: 'Mr. Siraj Mohamed',
+      position: 'Senior Technical Manager, Central Group, Bangkok, Thailand.',
     },
   ];
 
-  const pc = [
-    {
-      name: "Dr S.SasiKumar ",
-      position: "Professor / CSE ",
-    },
-    {
-      name: "Dr M.VijayAnand  ",
-      position: "Professor / CSE  ",
-    },
-    {
-      name: "Dr AnithaJulian ",
-      position: "Professor / CSE  ",
-    },
-    {
-      name: "Dr E,Sujatha ",
-      position: "Professor / CSE ",
-    },
-    {
-      name: "Dr V.Loganathan ",
-      position: "Associate Professor / CSE ",
-    },
-    {
-      name: "Dr R.Ramyadevi ",
-      position: "Associate Professor / CSE ",
-    },
-    {
-      name: "Mr N.V Ravindhar ",
-      position: "Assistant Professor / CSE ",
-    },
-    {
-      name: "Mrs K.S.Rekha ",
-      position: "Assistant Professor / CSE ",
-    },
-    {
-      name: "Mrs P.Preethi ",
-      position: "Assistant Professor / CSE  ",
-    },
-  ];
-
-  const cc = [
-    {
-      name: "Dr R. Kaladevi ",
-      position: "Associate Professor / CSE ",
-    },
-    {
-      name: "Dr V.UmaRani ",
-      position: "Associate Professor / CSE",
-    },
-  ];
-  const confercon = [
-    {
-      name: "Dr G.Nagappan ",
-      position: "Professor &Head",
-      dep: "Department of Computer Science and Engineering ",
-    },
-  ];
+  
   return (
     <CommitteContainer>
       <Title data-aos="fade-up">INTERNATIONAL ADVISORY COMMITTEE</Title>
