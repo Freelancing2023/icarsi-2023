@@ -165,11 +165,7 @@ function Committe() {
   ]
 
   const cc = [
-
     {
-      name:"Dr. R. Kaladevi ",
-      position:"Associate Professor / CSE "
-    },{
       name:"Dr. V. UmaRani ",
       position:"Associate Professor / CSE"
     }

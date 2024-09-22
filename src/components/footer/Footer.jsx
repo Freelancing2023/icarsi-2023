@@ -15,27 +15,26 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="flex container1">
-
         <div className="block1">
           <h4 className="heading">CONTACT</h4>
           <p className="address">
             For futher Details and queries, Please do contact our Faculties
           </p>
           <div className="contact-flex">
-          <div class="box">
-            <div class="content">
-            Dr R. Kaladevi <br />
-            +91 9710074931
+            <div class="box">
+              <div class="content">
+                Dr. G. Nagappan
+                <br />
+                +91 98406 62250
+              </div>
+            </div>
+            <div class="box">
+              <div class="content">
+                Dr V.UmaRani <br />
+                +91 8610352527
+              </div>
             </div>
           </div>
-          <div class="box">
-            <div class="content">
-            Dr V.UmaRani  <br />
-            +91 8610352527 
-            </div>
-          </div>
-          </div>
-          
         </div>
         <div className="block">
           <h4 className="heading">USEFUL LINKS</h4>
@@ -56,7 +55,7 @@ const Footer = () => {
           </a>
           <h4
             className="heading"
-            style={{ marginTop: "2rem", marginBottom: "1rem" }}
+            style={{ marginTop: '2rem', marginBottom: '1rem' }}
           >
             SOCIALS
           </h4>
@@ -100,7 +99,7 @@ const Footer = () => {
             <div class="gmap_canvas">
               <iframe
                 style={{
-                  borderRadius: "10px",
+                  borderRadius: '10px',
                 }}
                 class="gmap_iframe"
                 width="100%"

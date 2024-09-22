@@ -13,6 +13,7 @@ import Publication from "./components/publication/Publication";
 import About from "./components/About/About";
 import KeySpeaker from "./components/keySpeaker/KeySpeaker"
 import NationalCommitte from "./components/NationalCommitte/NationalCommitee";
+import Ethical from './components/ethical/Ethical';
 function App() {
   Aos.init();
   return (
@@ -26,15 +27,18 @@ function App() {
           <section id="paper-submission">
             <Impdate />
           </section>
+          <section id="ethical">
+            <Ethical />
+          </section>
           <section id="publications">
             <Publication />
           </section>
           <section id="committee">
-            <NationalCommitte/>
+            <NationalCommitte />
             <Committe />
           </section>
           <section id="call-for-paper">
-            <CallForPaper/>
+            <CallForPaper />
           </section>
           <section id="keyspeaker">
             <KeySpeaker />
@@ -43,10 +47,9 @@ function App() {
             <About />
           </section>
           <HashLink className="back-to-top" to="#">
-          <FaArrowUp />
-        </HashLink>
+            <FaArrowUp />
+          </HashLink>
         </main>
-      
 
         <Footer />
       </div>

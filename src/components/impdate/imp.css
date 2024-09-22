@@ -1,12 +1,13 @@
 
 .button-1 {
+  cursor: not-allowed;
   margin: 0 1rem;
   background-color: #EA4C89;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
   color: #FFFFFF;
-  cursor: pointer;
+  /* cursor: pointer; */
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;

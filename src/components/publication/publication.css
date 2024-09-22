@@ -1,68 +1,62 @@
-.publication{
-    font-size: 16px;
-    background-image: linear-gradient(90deg,#822ea8 0%,#d90e90 100%);
-    padding: 1rem;
-    color: white;
+.publications-section {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
-.pub-container{
-    max-width: 55%;
-    margin-inline: auto;
+.publications-container {
     display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    flex: 1 0 0;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
 }
-.pic{
-    margin: "1rem 0";
-     width: "40%";
-      border-radius: "50px" 
+.publications-title {
+    width: 100%;
+    color: #2c3e50;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
 }
-.fl{
-    flex: 1 0 0;
+.publications-content {
+    line-height: 2.2;
+    flex: 1;
+    min-width: 300px;
 }
-.right, .left{
-    flex:1; 
-}
-.right > p{
-    text-align: initial;
-    max-width: 80%;
-}
-.early > p{
-    text-align: initial;
-    margin: 0.5rem 0;
-}
-.right > h1,.left > h1{
-    margin-bottom: 1vw;
-}
-
-.early{
+.publications-editor {
+    flex: 1;
+    min-width: 300px;
     display: flex;
-    font-size: 1.1rem;
-    text-align: unset;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-.each{
-    flex:2;
+.editor-image {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd; /* Placeholder for the image */
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
-.price{
+.editor-name {
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    flex:1;
+    margin-bottom: 5px;
 }
-@media screen and (max-width:768px) {
-    .pub-container{
+.editor-affiliation {
+    font-style: italic;
+    color: #555;
+}
+.highlight {
+    font-weight: bold;
+    color: #2980b9;
+}
+@media (max-width: 768px) {
+    .publications-container {
         flex-direction: column;
-        max-width: 90%;
-    }
-    .right > p{
-        max-width: 100%;
-        margin: 0.5rem 0;
-    }
-    .price{
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex:1;
     }
 }
