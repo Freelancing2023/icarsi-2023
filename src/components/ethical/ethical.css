@@ -1,0 +1,46 @@
+.ethics-section {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.ethics-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+.ethics-title {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  font-size: 24px;
+  margin-top: 0;
+}
+.ethics-subtitle {
+  color: #2980b9;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  font-size: 20px;
+}
+.ethics-intro {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.ethics-list {
+  padding-left: 20px;
+}
+.ethics-list-item {
+  margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+  .ethics-section {
+      padding: 10px;
+  }
+  .ethics-container {
+      padding: 15px;
+  }
+}
