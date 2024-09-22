@@ -227,7 +227,7 @@ function Committe() {
               })}
             </Head2>
 
-            <Heading data-aos="zoom-in">Conference Co-ordinators</Heading>
+            <Heading data-aos="zoom-in">Conference Co-ordinator</Heading>
             <Head2>
               {cc.map((data, i) => {
                 return (
